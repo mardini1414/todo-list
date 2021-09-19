@@ -12,7 +12,7 @@ addTodo.onclick = getTodo;
 function getTodo() {
   const todoInput = document.getElementById('todo-input');
   // check long character
-  if (todoInput.value.length > 25 || todoInput.value.length === 0) {
+  if (todoInput.value.length > 18 || todoInput.value.length === 0) {
 
     const alert = document.querySelector('.alert');
     alert.classList.remove('d-none');
